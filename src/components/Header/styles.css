@@ -1,0 +1,26 @@
+
+header.header {
+  height: 60px;
+  background-color:#4A90E2;
+  padding: .75em 2em;
+  display: flex;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.header__menu__list {
+  list-style: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.header__menu__list:hover {
+  cursor: pointer;
+}
+
